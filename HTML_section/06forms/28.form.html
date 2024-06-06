@@ -4,17 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
 </head>
 <body>
     <form action="./success.html" method="post">
         <Label for="e_name">Name:
-            <input name="e_name" id="e_name">
+            <input name="e_name" id="e_name" type="text" required placeholder="name">
         </Label>
 
         <Label for="e_email">Email:
-            <input name="e_email" id="e_email">
+            <input name="e_email" id="e_email" type="email" required placeholder="example@gmail.com">
         </Label>
-        <button>Sign Up</button>
+
+        <Label for="e_phone">Phone:
+            <input name="e_phone" id="e_phone" type="tel" required placeholder="+995">
+        </Label>
+
+        <Label for="e_password">Password:
+            <input name="e_password" id="e_password" type="password" required placeholder="Password">
+        </Label>
+
+        <Label for="e_url">Website:
+            <input name="e_url" id="e_url" type="url" required placeholder="https://primeinspire.com">
+        </Label>
+
+        <Label for="e_quantity">Quantity:
+            <input name="e_quantity" id="e_quantity" type="number" required value="2">
+        </Label>
+
+        <Label for="e_date">Date:
+            <input name="e_date" id="e_date" type="date" required value="2025-03-02">
+        </Label>
+
+        <Label for="e_date">Date:
+            <input name="e_date" id="e_date" type="date" required value="2025-03-02" readonly>
+        </Label>
+
+        <Label for="e_date">Date:
+            <input name="e_date" id="e_date" type="date" required value="2025-03-02" disabled>
+        </Label>
+
+        <Label for="e_time">Time:
+            <input name="e_time" id="e_time" type="time" required>
+        </Label>
+
+        <Label for="e_month">Month:
+            <input name="e_month" id="e_month" type="month" required>
+        </Label>
+
+        <Label for="e_week">Week:
+            <input name="e_week" id="e_week" type="week" required>
+        </Label>
+
+        <Label for="e_dtl">Date Time Local:
+            <input name="e_dtl" id="e_dtl" type="datetime-local" required>
+        </Label>
+
+        <div>
+            <p>Select Gender</p>
+            <!-- Radio Buttons -->
+            <Label for="e_male">
+                <input name="e_gender" id="e_male" type="radio" required value="Male"> Male
+            </Label>
+
+            <Label for="e_female">
+                <input name="e_gender" id="e_female" type="radio" required value="Female"> Female
+            </Label>
+        </div>
+
+        <div>
+            <p>Food time selection:</p>
+            <Label for="e_breakfast">
+                <input name="e_food" id="e_breakfast" type="checkbox" required value="breakfast"> Breakfast
+            </Label>
+
+            <Label for="e_lunch">
+                <input name="e_food" id="e_lunch" type="checkbox" required value="lunch"> Lunch
+            </Label>
+
+            <Label for="e_dinner">
+                <input name="e_food" id="e_dinner" type="checkbox" required value="dinner"> Dinner
+            </Label>
+        </div>
+
+        <!-- search bar -->
+
+        <Label for="e_search">
+            Search:
+            <input name="e_search" id="e_search" type="search" placeholder="Search for..."> 
+            <input type="submit" value="search">
+        </Label>
+
+        <Label for="e_upload">
+            Search:
+            <input name="e_upload" id="e_upload" type="file" value="Upload" accept="image/*" multiple> 
+            <input type="submit" value="search">
+        </Label>
+        
+        <Label for="e_color">
+            Search:
+            <input name="e_color" id="e_color" type="color" required> 
+            <input type="submit" value="search">
+        </Label>
+
+        <button type="submit">Sign Up</button>
     </form>
 </body>
 </html>
