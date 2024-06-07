@@ -13,106 +13,177 @@
 </head>
 <body>
     <form action="./success.html" method="post">
-        <Label for="e_name">Name:
-            <input name="e_name" id="e_name" type="text" required placeholder="name">
-        </Label>
 
-        <Label for="e_email">Email:
-            <input name="e_email" id="e_email" type="email" required placeholder="example@gmail.com">
-        </Label>
+        <fieldset>
+            <legend>Registration Form</legend>
 
-        <Label for="e_phone">Phone:
-            <input name="e_phone" id="e_phone" type="tel" required placeholder="+995">
-        </Label>
-
-        <Label for="e_password">Password:
-            <input name="e_password" id="e_password" type="password" required placeholder="Password">
-        </Label>
-
-        <Label for="e_url">Website:
-            <input name="e_url" id="e_url" type="url" required placeholder="https://primeinspire.com">
-        </Label>
-
-        <Label for="e_quantity">Quantity:
-            <input name="e_quantity" id="e_quantity" type="number" required value="2">
-        </Label>
-
-        <Label for="e_date">Date:
-            <input name="e_date" id="e_date" type="date" required value="2025-03-02">
-        </Label>
-
-        <Label for="e_date">Date:
-            <input name="e_date" id="e_date" type="date" required value="2025-03-02" readonly>
-        </Label>
-
-        <Label for="e_date">Date:
-            <input name="e_date" id="e_date" type="date" required value="2025-03-02" disabled>
-        </Label>
-
-        <Label for="e_time">Time:
-            <input name="e_time" id="e_time" type="time" required>
-        </Label>
-
-        <Label for="e_month">Month:
-            <input name="e_month" id="e_month" type="month" required>
-        </Label>
-
-        <Label for="e_week">Week:
-            <input name="e_week" id="e_week" type="week" required>
-        </Label>
-
-        <Label for="e_dtl">Date Time Local:
-            <input name="e_dtl" id="e_dtl" type="datetime-local" required>
-        </Label>
-
-        <div>
-            <p>Select Gender</p>
-            <!-- Radio Buttons -->
-            <Label for="e_male">
-                <input name="e_gender" id="e_male" type="radio" required value="Male"> Male
+            <Label for="e_name">Name:
+                <input name="e_name" id="e_name" type="text" required placeholder="name">
             </Label>
 
-            <Label for="e_female">
-                <input name="e_gender" id="e_female" type="radio" required value="Female"> Female
-            </Label>
-        </div>
-
-        <div>
-            <p>Food time selection:</p>
-            <Label for="e_breakfast">
-                <input name="e_food" id="e_breakfast" type="checkbox" required value="breakfast"> Breakfast
+            <Label for="e_email">Email:
+                <input name="e_email" id="e_email" type="email" required placeholder="example@gmail.com">
             </Label>
 
-            <Label for="e_lunch">
-                <input name="e_food" id="e_lunch" type="checkbox" required value="lunch"> Lunch
+            <Label for="e_phone">Phone:
+                <input name="e_phone" id="e_phone" type="tel" required placeholder="+995">
             </Label>
 
-            <Label for="e_dinner">
-                <input name="e_food" id="e_dinner" type="checkbox" required value="dinner"> Dinner
+            <Label for="e_password">Password:
+                <input name="e_password" id="e_password" type="password" required placeholder="Password">
             </Label>
-        </div>
 
-        <!-- search bar -->
+            <Label for="e_url">Website:
+                <input name="e_url" id="e_url" type="url" required placeholder="https://primeinspire.com">
+            </Label>
 
-        <Label for="e_search">
-            Search:
-            <input name="e_search" id="e_search" type="search" placeholder="Search for..."> 
-            <input type="submit" value="search">
-        </Label>
+            <Label for="e_quantity">Quantity:
+                <input name="e_quantity" id="e_quantity" type="number" required value="2">
+            </Label>
 
-        <Label for="e_upload">
-            Search:
-            <input name="e_upload" id="e_upload" type="file" value="Upload" accept="image/*" multiple> 
-            <input type="submit" value="search">
-        </Label>
-        
-        <Label for="e_color">
-            Search:
-            <input name="e_color" id="e_color" type="color" required> 
-            <input type="submit" value="search">
-        </Label>
+            <Label for="e_date">Date:
+                <input name="e_date" id="e_date" type="date" required value="2025-03-02">
+            </Label>
 
-        <button type="submit">Sign Up</button>
+            <Label for="e_date">Date:
+                <input name="e_date" id="e_date" type="date" required value="2025-03-02" readonly>
+            </Label>
+
+            <Label for="e_date">Date:
+                <input name="e_date" id="e_date" type="date" required value="2025-03-02" disabled>
+            </Label>
+
+            <Label for="e_time">Time:
+                <input name="e_time" id="e_time" type="time" required>
+            </Label>
+
+            <Label for="e_month">Month:
+                <input name="e_month" id="e_month" type="month" required>
+            </Label>
+
+            <Label for="e_week">Week:
+                <input name="e_week" id="e_week" type="week" required>
+            </Label>
+
+            <Label for="e_dtl">Date Time Local:
+                <input name="e_dtl" id="e_dtl" type="datetime-local" required>
+            </Label>
+
+            <div>
+                <p>Select Gender</p>
+                <!-- Radio Buttons -->
+                <Label for="e_male">
+                    <input name="e_gender" id="e_male" type="radio" required value="Male"> Male
+                </Label>
+
+                <Label for="e_female">
+                    <input name="e_gender" id="e_female" type="radio" required value="Female"> Female
+                </Label>
+            </div>
+
+            <div>
+                <p>Food time selection:</p>
+                <Label for="e_breakfast">
+                    <input name="e_food" id="e_breakfast" type="checkbox" required value="breakfast"> Breakfast
+                </Label>
+
+                <Label for="e_lunch">
+                    <input name="e_food" id="e_lunch" type="checkbox" required value="lunch"> Lunch
+                </Label>
+
+                <Label for="e_dinner">
+                    <input name="e_food" id="e_dinner" type="checkbox" required value="dinner"> Dinner
+                </Label>
+            </div>
+
+            <!-- search bar -->
+
+            <Label for="e_search">
+                Search:
+                <input name="e_search" id="e_search" type="search" placeholder="Search for..."> 
+                <input type="submit" value="search">
+            </Label>
+
+            <Label for="e_upload">
+                Search:
+                <input name="e_upload" id="e_upload" type="file" value="Upload" accept="image/*" multiple> 
+                <input type="submit" value="search">
+            </Label>
+            
+            <Label for="e_color">
+                Search:
+                <input name="e_color" id="e_color" type="color" required> 
+                <input type="submit" value="search">
+            </Label>
+
+            <Label for="e_country">
+                Select Country:
+                <select name="e_country" id="e_country">
+                    <option value="Ge">Georgia </option>
+                    <option value="US">United States</option>
+                    <option value="UK">United Kingdom</option>
+                </select>
+            </Label>
+
+            <Label for="e_food_selection">
+                Select Food:
+                <select name="e_food_selection" id="e_food_selection">
+                    <optgroup label="Breakfast">
+                        <option value="Breakfast1">Breakfast1</option>
+                        <option value="Breakfast2">Breakfast2</option>
+                        <option value="Breakfast3">Breakfast3</option>
+                    </optgroup>
+
+                    <optgroup label="Lunch">
+                        <option value="Lunch1">Lunch1</option>
+                        <option value="Lunch2">Lunch2</option>
+                        <option value="Lunch3">Lunch3</option>
+                    </optgroup>
+
+                    <optgroup label="Dinner">
+                        <option value="Dinner1">Dinner1</option>
+                        <option value="Dinner2">Dinner2</option>
+                        <option value="Dinner3">Dinner3</option>
+                    </optgroup>
+                </select>
+            </Label>
+
+            <Label for="e_icecream">
+                Select Ice Cream:
+                <input list="icecream-flavours" name="e_icecream" id="e_icecream">
+
+                <datalist id="icecream-flavours">
+                    <option value="Chocolate">
+                    <option value="Vanilla">
+                    <option value="Mint">
+                    <option value="Coffe">
+                </datalist>
+            </Label>
+
+            <Label for="e_message">
+                Message:
+                <textarea name="e_message" id="e_message" cols="30" rows="5"></textarea>
+            </Label>
+
+            <Label for="e_range">
+                Range:
+                <input type="range" name="e_range" id="e_range" min="0" max="3">
+                <input type="range" name="e_range" id="e_range" min="0" max="100">
+            </Label>
+
+            <!-- Fancy button -->
+            <Label for="e_fancy">
+                <input type="image" src="https://www.wawak.com/49c41e/globalassets/catalogs/bu20/bu2041bk/bu2041bk-1-main-0.jpg" width="80" name="" id="">
+            </Label>
+
+            <input type="hidden" name="e_hidden" id="e_hidden">
+
+            <!-- Reset -->
+
+            <button type="reset"> Reset</button>
+            <button type="submit">Sign Up</button>
+            
+        </fieldset>
     </form>
 </body>
 </html>
