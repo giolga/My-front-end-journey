@@ -1,0 +1,23 @@
+section {
+    color: crimson;
+}
+
+* {
+    color: darkcyan;
+}
+
+p {
+    color: blueviolet;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+.example {
+    color: burlywood;
+}
+
+#example { 
+    color: darkgreen;
+}
