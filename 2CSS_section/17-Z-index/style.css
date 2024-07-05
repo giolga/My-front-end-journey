@@ -1,0 +1,40 @@
+html {
+    background-color: gainsboro;
+}
+
+body {
+    background-color: white;
+    height: 300px;
+}
+
+.block-1, .block-2, .block-3, .block-4 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+
+.block-1 {
+    background-color: aquamarine;
+    z-index: 3;
+}
+
+.block-2 {
+    background-color: bisque;
+    margin-top: 15px;
+    margin-left: 15px;
+    z-index: 2;
+}
+
+.block-3 {
+    background-color: blueviolet;
+    margin-top: 30px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.block-4 {
+    background-color: brown;
+    margin-top: 45px;
+    margin-left: 45px;
+    z-index: 0;
+}

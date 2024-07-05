@@ -1,0 +1,22 @@
+.container {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.row {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+.col {
+    background-color: darkturquoise;
+    padding: 15px;
+    color: white;
+    margin: 5px;
+    flex:1  1  100px;
+}

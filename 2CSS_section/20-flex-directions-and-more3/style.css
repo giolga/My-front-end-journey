@@ -1,0 +1,22 @@
+.box {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: darkcyan;
+    display: flex;
+
+
+    /* align-items: stretch; */
+    flex-direction: column;
+    justify-content: start;
+}
+
+.box-item {
+    /* width: 100px; */
+    height: 100px;
+    background-color: cyan;
+    border: 1px solid #000;
+}
+
+/*  align-items: stretch; stretches all the way down, so we have to coment out height*/
+/*  justify-content: start; stretches all the way to the right, so we have to comment out width*/

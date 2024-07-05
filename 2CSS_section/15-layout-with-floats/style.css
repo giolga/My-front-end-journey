@@ -1,0 +1,36 @@
+.container {
+    width: 1000px;
+    height: auto;
+    background-color: azure;
+    margin: auto;
+}
+
+.header {
+    width: 1000px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.content {
+    width: 750px;
+    height: 250px;
+    float: left;
+    background-color: gainsboro;
+}
+
+.sidebar {
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: lavender;
+}
+
+.footer {
+    width: 1000px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.clear-fix {
+    clear: both;
+}
