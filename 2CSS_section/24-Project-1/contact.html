@@ -47,38 +47,43 @@
             </ul>
           </nav>
 
-          <!-- Banner Slider -->
-           <section class="banner-slider">
-            <ul id="adaptive">
-                <li><img src="https://placehold.co/1000x350" alt="#"></li>
-                <li><img src="https://placehold.co/1000x350" alt="#"></li>
-                <li><img src="https://placehold.co/1000x350" alt="#"></li>
-            </ul>
-           </section>
-
-           <!-- Content Holder -->
-            <section class="content-holder">
-                <main class="content">
-                    <h1>Main heading for site</h1>
-                    <h2>Sub-heding for site</h2>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, saepe praesentium modi in laboriosam, nemo laborum atque dolores ipsam libero ab hic earum qui maxime officia doloremque delectus perferendis mollitia.</p>
-                    <p>Neque, rerum ea quasi dolorem eos id non temporibus, quos repellendus suscipit eius. Possimus asperiores culpa cumque eum officiis deleniti obcaecati molestiae ex deserunt! Voluptatibus itaque assumenda corrupti accusantium accusamus?</p>
-                    <p>Illum voluptatibus id, voluptates eveniet praesentium, aliquam quisquam sunt pariatur cumque nemo rerum modi excepturi mollitia vitae ipsum iure cum minima labore dolores, nulla facilis voluptatum nobis? Corporis, doloremque mollitia.</p>
-                </main>
-                <aside class="sidebar">
-                    <div class="widget">
-                        <h3>Follow us</h3>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Linkdin</a></li>
-                        </ul>
-                    </div>
-                </aside>
+            <!--Map-->
+            <section class="gmap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95285.17072976078!2d44.72436416707542!3d41.727820834217695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi!5e0!3m2!1sen!2sge!4v1720901868662!5m2!1sen!2sge" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
 
+            <!--Contact Details-->
+            <section class="contact-details">
+                <div class="contact-form">
+                    <form action="" method="post">
+                        <label for="c_name">
+                            Name:
+                            <input type="text" name="c_name" id="c_name" placeholder="Name">
+                        </label>
+                        <label for="c_email">
+                            Email:
+                            <input type="email" name="c_email" id="c_email" placeholder="Email">
+                        </label>
+                        <label for="c_phone">
+                            Phone:
+                            <input type="tel" name="c_phone" id="c_phone" placeholder="Phone">
+                        </label>
+                        <label for="c_message">
+                            Message:
+                            <textarea name="c_message" id="c_message" cols="30" rows="5"></textarea>
+                        </label>
+
+                        <button type="submit">Send message</button>
+                    </form>
+                </div>
+                <div class="time-contact">
+                    <h3>Timing</h3>
+                    <p><strong>Mon - Sat</strong> <time datetime="09:00">09:00AM</time> - <time datetime="17:00">05:00PM</time></p>
+                    <hr>
+                    <h3>Contact</h3>
+                    <p><a href="mailto:el_kumi@gmail.com">el_kumi@gmail.com</a></p>
+                </div>
+            </section>
             <!-- Footer Widgets -->
              <section class="footer-widget-holder">
                 <div class="footer-widget">
