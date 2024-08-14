@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Header -->
+         <header class="main-header">
+            <!-- Logo Holder -->
+             <div class="logo-holder">
+                <a href="#">
+                    <img src="img/logo.png" alt="Cool Buisness" style="width: 50px;">
+                </a>
+             </div>
+
+             <!-- Search Holder -->
+             <div class="search-holder">
+                <form action="Get">
+                    <input type="search" name="s" placeholder="Search for...">
+                    <button type="submit">Search</button>
+                </form>
+             </div>
+         </header>
+
+         <!-- Main Menu -->
+          <nav class="main-menu">
+            <ul>
+                <li><a href="about.html">Home</a></li>
+                <li><a href="services.html">Services</a>
+                    <ul class="drop">
+                        <li>Service One</li>
+                        <li>Service Two</li>
+                        <li>Service Three</li>
+                    </ul>
+                </li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+            <!--About holder-->
+            <section class="about-holder">
+                <article class="about">
+                    <h1>About us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt assumenda similique voluptate fugit repellendus sunt repudiandae beatae iure, delectus, amet illum quia doloribus modi ullam dolore ratione. Labore, itaque debitis?</p>
+                    <p>Eius dicta quidem aut impedit optio non voluptatum blanditiis accusamus sit? Reiciendis, dicta corrupti? Facilis accusantium culpa a omnis libero voluptas nulla id nobis sed. Autem eos fugiat vero officiis.</p>
+                    <p>Repudiandae deleniti iusto fugiat expedita numquam cupiditate eum hic reiciendis aliquam debitis tempore laudantium explicabo nesciunt cumque, inventore et necessitatibus ipsum iure amet vel excepturi nam suscipit pariatur? Maxime, illum?</p>
+                    <p>Veritatis nesciunt voluptatibus cupiditate quaerat officia, quia quasi, ex eaque voluptate quibusdam neque quos provident! Aliquam porro ducimus harum mollitia consequatur nisi magnam aliquid aut est. Itaque fugit dolores rerum.</p>
+                    <p>Fugiat earum suscipit eveniet culpa. Ut quae tempora minima similique ducimus laudantium deserunt quaerat non molestias neque soluta rerum, accusamus aperiam ratione, doloribus rem odit assumenda labore quis ipsam! Id?</p>
+                    <p>Odit laboriosam doloremque, voluptatem quis officiis vitae libero reprehenderit, corporis consequatur quas incidunt ipsa optio dolorum nesciunt modi repellat vero, facilis voluptas? Adipisci placeat itaque quo tempora reprehenderit ipsam mollitia!</p>
+                </article>
+            </section>
+            <!-- Footer Widgets -->
+             <section class="footer-widget-holder">
+                <div class="footer-widget">
+                    <a href="#">
+                        <img src="img/logo.png" alt="#" width="75px">
+                    </a>
+                    <h3>Address</h3>
+                    <address>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique temporibus et cupiditate blanditiis, qui itaque a molestiae, tempora accusantium consequuntur eos corporis ab corrupti! Temporibus omnis culpa consequatur eum minima.</address>
+                
+                </div>
+
+                <div class="footer-widget">
+                    <h4>Site map</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-widget">
+                    <h4>Site map</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h4>Site map</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+             </section>
+             <!-- Site Footer -->
+              <footer class="site-footer">
+                <p><small>Copyright &copy;2024</small></p>
+              </footer>
+    </div>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $('#adaptive').lightSlider({
+                adaptiveHeight:true,
+                item:1,
+                slideMargin:0,
+                loop:true
+            });
+        });
+    </script>
+</body>
+</html>
